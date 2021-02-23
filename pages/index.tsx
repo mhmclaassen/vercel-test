@@ -15,7 +15,7 @@ export default function Home() {
   const hobbies = ["asdas", "asdasd"];
   return (
     <Fragment>
-      <h1>Title</h1>
+      <h1>Newer and shiny title</h1>
       {!data && !error && <h2>Loading..</h2>}
       {error && <h2>Error: {error.message}</h2>}
       {data && <Hello user={data}></Hello>}
